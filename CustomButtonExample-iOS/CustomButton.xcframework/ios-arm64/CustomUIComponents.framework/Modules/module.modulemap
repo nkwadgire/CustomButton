@@ -1,0 +1,6 @@
+framework module CustomUIComponents {
+  umbrella header "CustomUIComponents.h"
+  export *
+
+  module * { export * }
+}
