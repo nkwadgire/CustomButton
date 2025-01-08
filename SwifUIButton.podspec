@@ -6,10 +6,10 @@ Pod::Spec.new do |spec|
 CustomButton will create the different types of SwiftUI button based on the button type passed by the user.
                    DESC
 
-  spec.homepage     = "https://github.com/nkwadgire/CustomButton"
+  spec.homepage     = "https://github.com/nkwadgire/SwiftUIButton"
   spec.license = { :type => "Apache 2.0", :file => "LICENSE" }
   spec.author             = { "Nagraj Wadgire" => "nkwadgire@gmail.com" }
-  spec.source       = { :git => "http://github.com/nkwadgire/CustomButton.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "http://github.com/nkwadgire/SwiftUIButton.git", :tag => "#{spec.version}" }
   spec.swift_version = '5.0'
   spec.platform = :ios, '16.1'
   spec.ios.deployment_target = '13.0'
