@@ -11,5 +11,7 @@ CustomButton will create the different types of SwiftUI button based on the butt
   spec.author             = { "Nagraj Wadgire" => "nkwadgire@gmail.com" }
   spec.source       = { :git => "http://github.com/nkwadgire/CustomButton.git", :tag => "#{spec.version}" }
   spec.ios.deployment_target = '13.0'
+  spec.swift_version = '5.0'
+  spec.platform = :ios, '16.1'
   spec.source_files  = 'Sources/CustomButton/**/*.{swift}'
 end
