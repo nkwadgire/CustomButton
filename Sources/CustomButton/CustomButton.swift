@@ -90,9 +90,9 @@ public struct CustomButton {
         .modifier(if: buttonWidth != nil) { $0.frame(width:buttonWidth)}
         .modifier(if: buttonHeight != nil) { $0.frame(height:  buttonHeight)}
         .modifier(if: font != nil) { $0.font(font)}
-        .modifier(if: fontWidth != nil) { $0.fontWidth(fontWidth)}
+        .modifier(if: fontWidth != nil) {$0.fontWidth(fontWidth)}
         .modifier(if: fontWeight != nil) { $0.fontWeight(fontWeight)}
-        .modifier(if: fontDesign != nil) { $0.fontDesign(fontDesign)}
+        .modifier(if: fontDesign != nil) {$0.fontDesign(fontDesign)}
         .modifier(if: buttonStyle != nil) { $0.buttonStyle(buttonStyle ?? PlainButtonStyle.plain as! T)}
         .modifier(if: buttonBorderShape != nil) { $0.buttonBorderShape(buttonBorderShape ?? ButtonBorderShape.automatic)}
         .modifier(if: foregroundStyle != nil) { $0.foregroundStyle(foregroundStyle ?? Color.primary as! S)}
