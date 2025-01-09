@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import CustomUIComponents
+import SwiftUIButton
 
 struct ContentView: View {
     @State private var showAlert = false
